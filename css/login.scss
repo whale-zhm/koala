@@ -1,0 +1,137 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+    h1{
+        padding: 20px;
+        float: left;
+    }
+    .list{
+        float: right;
+        img{
+            height: 90px;
+            padding-top: 10px;
+        }
+    }
+}
+
+section {
+    border-bottom: 1px solid #ccc;
+    background: #f8f8f8;
+    padding: 40px;
+    .main-img{
+        float: left;
+        img {
+            padding: 20px 0;
+        }
+    }
+    .login {
+        float: right;
+        height: 350px;
+        width: 300px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        padding: 20px;
+        .login-list {
+            font-size: 24px;
+            margin: 0 20px;
+            li {
+                float: left;
+                border-right: 2px solid #ccc;
+                padding: 0 15px;
+               
+            }
+            .active{
+                color: red;
+            }
+            :nth-child(2) {
+                border-right: none;
+            }
+        }
+        .login-mian {
+            margin: 20px;
+            border-bottom: 1px solid #ccc;
+            .richScan {
+                display: block;
+                text-align: center;
+                margin-bottom: 20px;
+                img {
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                }
+            }
+            .phone {
+                margin: 0 10px;
+                display: none;
+                p {
+                    input {
+                        width: 250px;
+                        height: 30px;
+                        margin-bottom: 10px;
+                        border-radius: 25px;
+                        text-align: center;
+                        // border: none;
+                        outline: none;
+                    }
+                    button {
+                        width: 250px;
+                        height: 30px;
+                        color: #fff;
+                        background-color: red;
+                        border-radius: 25px;
+                        border: none;
+                        outline: none;
+                        margin-bottom: 10px;
+                    }    
+                    .checkbox {
+                        input {
+                            width: 10px;
+                            height: 10px;
+                            margin-right: 10px;
+                        }
+                    }
+                    .at {
+                        float: right;
+                        a{
+                            color: orange;
+                        }
+                    }
+                    .usernameTip {
+                        display: block;
+                        height: 20px;
+                    }
+                    .passwordTip {
+                        display: block;
+                        height: 20px;
+                    }
+                }
+                
+            }
+        }
+        .other {
+            margin-left: 20px;
+            img {
+                margin-top: 15px;
+                width: 100%;
+            }
+        }
+    }
+}
+footer{
+    height: 210px;
+    border-top: 1px solid #ccc;
+    div{
+        text-align: center;
+        padding-top: 30px;
+        p{
+            padding-bottom: 10px;
+            span {
+                padding: 15px;
+            }
+        }
+    }
+    
+}

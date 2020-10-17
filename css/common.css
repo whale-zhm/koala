@@ -1,0 +1,51 @@
+html,body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,img,form,input,div,span,label,select,
+option,
+textarea,
+button,
+table,
+td,
+tr,
+i,
+b,
+em,
+strong,
+u,
+br 
+,header
+,main
+,section
+,footer{
+    padding: 0;
+    margin: 0;
+}
+/* 继承可视窗口高度 */
+body,html{
+    height: 100%;
+}
+ul,ol,li{
+    list-style: none;
+}
+img{
+    border: 0;
+    display: block;
+    /* vertical-align: middle; */
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+/* 万能清除法 */
+.clear_fix::after{
+    content: " ";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}

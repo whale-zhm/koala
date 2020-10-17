@@ -1,0 +1,99 @@
+header {
+    section:nth-child(1){
+        background-color: #000;      
+        .header-top{
+            width: 1200px;
+            margin: 0 auto;
+            color: #999;
+            font-size: 14px;
+            ul{
+                padding-top: 10px;
+                li {
+                    float: left;
+                    margin-right: 20px;
+                }
+            }
+            .list1 {
+                float: left;
+                li {
+                    a{
+                        color: #999;
+                        text-decoration: none;
+                    }
+                    &:hover a{
+                        color: #fff;
+                    }
+                }
+            }
+            .list2 {
+                float: right;
+            }
+    
+        }
+    }
+    section:nth-child(2) {
+        width: 1200px;
+        margin: 0 auto;
+        .header-mian{
+            padding: 20px 0;
+            h1 {
+                margin-right: 200px;
+            }
+        }
+    }
+}
+
+.main {
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    .table {
+        .count{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ccc;
+        }
+        button {
+            width: 20px;
+            height: 20px;
+            background-color: #000;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            outline: none;
+            border: 0;
+
+        }
+        tr{
+            height: 50px;
+        }
+        .imgli {
+            // text-align: center;
+            position: relative;
+            img{
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                left: 50%;
+                top: 0;
+                transform: translateX(-50%);
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #333333;
+    height: 210px;
+    color: #fff;
+    div{
+        text-align: center;
+        padding-top: 30px;
+        p{
+            span {
+                padding: 15px;
+            }
+        }
+    }
+    
+}
